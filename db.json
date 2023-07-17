@@ -1,9 +1,285 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "limit_manage": [
+    {
+      "ammount": 2,
+      "user": {
+        "username": "Lemon"
+      },
+      "created_at": "2023-07-12",
+      "updated_at": "2023-07-12",
+      "id": 564
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "bank": [
+    {
+      "id": 1,
+      "user_id": 432,
+      "username": "albert",
+      "bank_accounts": [
+        {
+          "Name": "BCA",
+          "Number": "943948392",
+          "Balance": 0
+        },
+        {
+          "Name": "BRI",
+          "Number": "732843243",
+          "Balance": 0
+        },
+        {
+          "Name": "BRI",
+          "Number": "873284324",
+          "Balance": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 3232,
+      "username": "lobert",
+      "bank_accounts": [
+        {
+          "Name": "BCA",
+          "Number": "943948392",
+          "Balance": 0
+        },
+        {
+          "Name": "BRI",
+          "Number": "732843243",
+          "Balance": 0
+        },
+        {
+          "Name": "BRI",
+          "Number": "873284324",
+          "Balance": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_id": 333,
+      "username": "kambert",
+      "bank_accounts": [
+        {
+          "Name": "BCA",
+          "Number": "943948392",
+          "Balance": 0
+        },
+        {
+          "Name": "BRI",
+          "Number": "732843243",
+          "Balance": 0
+        },
+        {
+          "Name": "BRI",
+          "Number": "873284324",
+          "Balance": 0
+        }
+      ]
+    },
+    {
+      "bank_accounts": [
+        {
+          "Name": "BCA",
+          "Number": "21",
+          "Balance": 0
+        }
+      ],
+      "user_id": 1,
+      "username": "muhamad",
+      "id": 4
+    }
   ],
-  "profile": { "name": "typicode" }
+  "menu_manage": [
+    {
+      "menus_manages": [
+        {
+          "menu_manage": "user_manage"
+        },
+        {
+          "menu_manage": "menus_manage"
+        },
+        {
+          "menu_manage": "limit_manage"
+        },
+        {
+          "menu_manage": "account_manage"
+        }
+      ],
+      "user": {
+        "username": "RoyalNavy"
+      },
+      "id": 249
+    },
+    {
+      "menus_manages": [
+        {
+          "menu_manage": "user_manage"
+        },
+        {
+          "menu_manage": "menus_manage"
+        },
+        {
+          "menu_manage": "limit_manage"
+        },
+        {
+          "menu_manage": "account_manage"
+        }
+      ],
+      "user": {
+        "username": "RoyalNavy"
+      },
+      "id": 293
+    }
+  ],
+  "user": {
+    "data": [
+      {
+        "status": {
+          "status_name": "active"
+        },
+        "roles": [
+          {
+            "role_name": "maker"
+          }
+        ],
+        "full_name": "kdhfkskf",
+        "email": "a@gmail.com",
+        "username": "fhskjfhdsf",
+        "address": "83432shfsh",
+        "phone_number": "832748278432",
+        "company_address": "432432",
+        "company_name": "yes",
+        "created_at": "2023-07-13",
+        "updated_at": "2023-07-13",
+        "id": 1
+      },
+      {
+        "status": {
+          "status_name": "active"
+        },
+        "roles": [
+          {
+            "role_name": "maker"
+          }
+        ],
+        "company_name": "yes",
+        "full_name": "dsfdsfd",
+        "email": "a@gmail.com",
+        "username": "werer",
+        "address": "23rerew",
+        "phone_number": "321321321",
+        "company_address": "2343242",
+        "created_at": "2023-07-13",
+        "updated_at": "2023-07-13",
+        "id": 2
+      }
+    ]
+  },
+  "company": {
+    "data": [
+      {
+        "company_name": "bri",
+        "company_address": "Jakarta",
+        "id": 2,
+        "created_at": "07/10/2023",
+        "updated_at": "07/11/2023",
+        "bank_account": [
+          {
+            "name": "BRI Britama",
+            "number": "324324324243",
+            "balance": 0
+          },
+          {
+            "name": "BRI Britama X",
+            "number": "324324324243",
+            "balance": 0
+          }
+        ]
+      },
+      {
+        "company_name": "shope",
+        "company_address": "jakarta",
+        "created_at": "07/09/2023",
+        "updated_at": "07/12/2023",
+        "id": 4,
+        "bank_account": [
+          {
+            "name": "BRI Britama",
+            "number": "324324324243",
+            "balance": 0
+          },
+          {
+            "name": "BRI Britama X",
+            "number": "324324324243",
+            "balance": 0
+          }
+        ]
+      },
+      {
+        "company_name": "yes",
+        "company_address": "fjldsjfs",
+        "created_at": "2023-07-12",
+        "updated_at": "2023-07-12",
+        "id": 5,
+        "bank_account": [
+          {
+            "name": "BRI Britama",
+            "number": "324324324243",
+            "balance": 0
+          },
+          {
+            "name": "BRI Britama X",
+            "number": "324324324243",
+            "balance": 0
+          }
+        ]
+      },
+      {
+        "company_name": "lakulaku",
+        "company_address": "qewqewqewqewqe",
+        "created_at": "2023-07-12",
+        "updated_at": "2023-07-12",
+        "id": 6,
+        "bank_account": [
+          {
+            "name": "BRI Britama",
+            "number": "324324324243",
+            "balance": 0
+          },
+          {
+            "name": "BRI Britama X",
+            "number": "324324324243",
+            "balance": 0
+          }
+        ]
+      },
+      {
+        "company_name": "testst",
+        "company_address": "sjrjsfsdf",
+        "name": "fdsfhsdhf",
+        "number": "jhfjsdhfdsf",
+        "created_at": "2023-07-13",
+        "updated_at": "2023-07-13",
+        "id": 7,
+        "bank_account": [
+          {
+            "name": "BRI Britama",
+            "number": "324324324243",
+            "balance": 0
+          },
+          {
+            "name": "BRI Britama X",
+            "number": "324324324243",
+            "balance": 0
+          }
+        ]
+      }
+    ]
+  },
+  "login": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoic2lnbmVyIiwiaXNzdWVyIjoidGVzdC5xbG9sYSIsImNvbXBhbnlfaWQiOjEsImlhdCI6MTUxNjIzOTAyMn0.zDTvTbQ9b3OuwyFDNJfzohfL6uN7cBF6QTQINy-oeZc",
+    "user_id": 3,
+    "role": "maker"
+  }
 }
