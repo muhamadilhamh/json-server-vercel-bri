@@ -17,19 +17,19 @@
       "username": "albert",
       "bank_accounts": [
         {
-          "Name": "BCA",
-          "Number": "943948392",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "943948392",
+          "Balance": 5000000
         },
         {
-          "Name": "BRI",
-          "Number": "732843243",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "732843243",
+          "Balance": 1000000
         },
         {
-          "Name": "BRI",
-          "Number": "873284324",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "873284324",
+          "Balance": 4000000
         }
       ]
     },
@@ -39,19 +39,19 @@
       "username": "lobert",
       "bank_accounts": [
         {
-          "Name": "BCA",
-          "Number": "943948392",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "943948392",
+          "Balance": 3000000
         },
         {
-          "Name": "BRI",
-          "Number": "732843243",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "732843243",
+          "Balance": 2000000
         },
         {
-          "Name": "BRI",
-          "Number": "873284324",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "873284324",
+          "Balance": 1000000
         }
       ]
     },
@@ -61,30 +61,40 @@
       "username": "kambert",
       "bank_accounts": [
         {
-          "Name": "BCA",
-          "Number": "943948392",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "943948392",
+          "Balance": 7000000
         },
         {
-          "Name": "BRI",
-          "Number": "732843243",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "732843243",
+          "Balance": 8000000
         },
         {
-          "Name": "BRI",
-          "Number": "873284324",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "873284324",
+          "Balance": 9000000
         }
       ]
     },
     {
-      "bank_accounts": [
+       "bank_accounts": [
         {
-          "Name": "BCA",
-          "Number": "21",
-          "Balance": 0
+          "account_name": "BRI",
+          "account_number": "943948392",
+          "Balance": 4000000
+        },
+        {
+          "account_name": "BRI",
+          "account_number": "732843243",
+          "Balance": 8000000
+        },
+        {
+          "account_name": "BRI",
+          "account_number": "873284324",
+          "Balance": 12000000
         }
-      ],
+      ]
       "user_id": 1,
       "username": "muhamad",
       "id": 4
